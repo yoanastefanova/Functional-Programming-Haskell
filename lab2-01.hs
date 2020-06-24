@@ -45,7 +45,7 @@ isPerfect n = n == sumDigits [x|x <- [1..n-1], mod n x == 0]
 main :: IO()
 main = do
  --print(myMin 12 23)
- --print(countDigits 123)
+ --print(Digits 123)
  --print(sumDigits 1234)
  --print (isAscending 121)
  --print (isDescending 321)
